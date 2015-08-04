@@ -1,14 +1,13 @@
 # sudoku
 
-A Clojure library designed to ... well, that part is up to you.
+Implementation of a sudoku solver in Clojure.
+
+Currently, the only implementation is a naive recursive backtracking solution. This is suboptimal,
+and doesn't really make use of any intelligent sudoku strategies the way a human would. As I have time
+to improve the algorithm and write new implementations, I'll add them here.
+
+You can see how slow it is for some inputs by running `lein test :performance`
 
 ## Usage
 
 FIXME
-
-## License
-
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
