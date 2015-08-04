@@ -63,7 +63,7 @@
            row (get-row puzzle cell-idx)
            col (get-col puzzle cell-idx)
            square (get-square-section puzzle cell-idx)]
-      (every? valid-section? [row col square]))
+       (every? valid-section? [row col square]))
     (range 1 10)))
 
 (defn sudoku
